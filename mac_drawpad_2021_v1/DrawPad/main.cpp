@@ -5,6 +5,7 @@ void DrawMain()
 {
     Clear(kColorBlack);
 
+    DrawCircle(0, 0, 135, kColorGray);
     DrawLine(-320, 0, 319, 0, kColorGray);
     DrawLine(0, -240, 0, 239, kColorGray);
 
